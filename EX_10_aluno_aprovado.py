@@ -17,3 +17,44 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+print(' - MÉDIA ESCOLAR ! -')
+
+nome = input('Digite o nome do aluno: ')
+p1 = float(input('Nota da primeira prova: '))
+p2 = float(input('Nota da segunda prova: '))
+
+
+soma = p1 + p2 
+media = soma / 2
+
+if media >= 6:
+    print(f''' 
+| ______________________________ |
+| SISTEMA DE PROVAS
+| ______________________________ |
+| Nome do aluno: {nome}
+| Nota da primeira prova: {p1}
+| Nota da segunda prova: {p2}
+
+| ______________________________ |
+| Aluno: {nome}
+| Média: {media:.2f}
+| Aluno APROVADO!!!!
+| ______________________________ |
+''')
+    
+elif media < 6:
+       print(f''' 
+| ______________________________ |
+| SISTEMA DE PROVAS
+| ______________________________ |
+| Nome do aluno: {nome}
+| Nota da primeira prova: {p1}
+| Nota da segunda prova: {p2}
+
+| ______________________________ |
+| Aluno: {nome}
+| Média: {media:.2f}
+| Aluno REPROVADO!!!!
+| ______________________________ |
+''')

@@ -14,3 +14,13 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+print('-- CNH --')
+nome = input('Digite seu nome: ')
+ida = int(input('Digite sua idade: '))
+
+if ida >= 18:
+    print('o usuario pode tirar a CNH !')
+elif ida < 18:
+    print('o usuario não pode tirar a CNH! ')
+else: 
+    print('idade não identificada! Tentar novamente.')

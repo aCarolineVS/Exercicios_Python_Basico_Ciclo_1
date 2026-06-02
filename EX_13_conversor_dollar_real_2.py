@@ -25,3 +25,21 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+print('''
+       Escolha uma opção: 
+       1 - Dollar para Real
+       2 - Real para dollar
+      
+      ''')
+
+opc = int(input('Digite a opção: '))
+cot = float(input('Digite a cotação do dollar: '))
+
+if opc == 1:
+    dol = float(input('Informe a quantidade de dollares: '))
+    print(f'O valor em reais é R${dol*cot}')
+
+elif opc == 2:
+    reais = float(input('Informe a quantiddae de reais: '))
+    print(f'O valor em reais é de R${reais/cot:.2f}')
+    

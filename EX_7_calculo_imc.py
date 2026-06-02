@@ -12,3 +12,11 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+print(' -- CALCULADORA DE IMC ! --')
+
+al = float(input('Digite sua altura: '))
+peso = int(input('Digite seu peso: '))
+
+imc = peso /  (al ** 2)
+
+print(f'O seu IMC é igual a: {imc:.2f}')

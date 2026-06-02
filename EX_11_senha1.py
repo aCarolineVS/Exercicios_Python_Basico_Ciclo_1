@@ -15,3 +15,10 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+salva = "Senha*123"
+senha = input('Digite a senha: ')
+
+if senha == salva:
+    print('SENHA CORRETA!')
+else: 
+    print('SENHA INCORRETA!!!')

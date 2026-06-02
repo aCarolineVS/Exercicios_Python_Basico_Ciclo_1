@@ -9,4 +9,24 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+print('--- BEM VINDO A CALCULADORA DE DESCONTOS!!! ---')
 
+nome = input('Digie o nome do produto: ')
+produto = input('Digite o preço do produto: ')
+porcen = float(input('Qual a porcentagem do desconto: '))
+
+desc = produto * (porcen / 100)
+
+print(f'''
+____________________________________
+      
+ - Produto: {nome}
+      
+ - Valor do produto: {produto}
+      
+ - Porcentagem de desconto: {porcen}
+      
+ - Desconto total: {desc}
+____________________________________
+      
+      ''')
